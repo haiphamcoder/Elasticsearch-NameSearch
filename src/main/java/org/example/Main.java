@@ -18,7 +18,7 @@ public class Main {
     static String serverUrl = "http://localhost:9200";
     static String indexName = "users";
     static String fieldSearch = "name";
-    static String searchText = "Nguyen";
+    static String searchText = "Nguyễn";
 
     public static void main(String[] args) throws IOException {
         RestClient httpClient = RestClient.builder(
