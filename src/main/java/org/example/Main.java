@@ -49,7 +49,7 @@ public class Main {
         for (Hit<Person> hit : hits) {
             Person user = hit.source();
             assert user != null;
-            System.out.println(user.getNAME());
+            System.out.println(user.getName());
         }
 
         httpClient.close();
